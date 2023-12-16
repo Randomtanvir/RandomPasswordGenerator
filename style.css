@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    max-width: 100vw;
+    height: 100vh;
+    background: linear-gradient(to right bottom,#ce7252,#2ca59bba);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contanear{
+    border: 0.5px solid #fff;
+    padding: 28px 30px;
+    display: flex;
+    flex-direction: column;
+    background: transparent;
+    box-shadow: 0 0 20px 0 black;
+    border-radius: 3px;
+}
+
+.contanear h1{
+    font-size: 1.4rem;
+    color: #fff;
+}
+
+.pass-show-box{
+    background: transparent;
+    color: #fff;
+    border: none;
+    outline: none;
+    padding: 8px 5px;
+    border: 0.3px solid #fff;
+    margin-block: 10px;
+    font-size: 20px;
+    text-overflow: ellipsis;
+    
+}
+.inputbox{
+    position: relative;
+}
+.inputbox span{
+    position: absolute;
+    top: 14px;
+    right: 0px;
+    color: #fff;
+    padding: 5px;
+    cursor: pointer;
+    z-index: 2;
+}
+
+.row{
+    display: flex;
+}
+.row p{
+    flex-basis: 100%;
+    margin-bottom: 10px;
+    color: #fff;
+}
+input[type="range"]{
+   cursor: pointer;
+   color: #c80606;
+}
+input[type="checkbox"]{
+   cursor: pointer;
+   width: 18px;
+   height: 18px;
+}
+
+.row label{
+    flex-basis: 100%;
+    margin-bottom: 5px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 18px;
+}
+.gen-btn{
+    background: transparent;
+    padding: 5px;
+    outline: none;
+    border: none;
+    margin-block: 15px;
+    color: #fff;
+    font-size: 18px;
+    cursor: pointer;
+    border: 0.3px solid #fff;
+    border-radius: 3px;
+}
+.gen-btn:hover{
+    box-shadow: 0 0 4px 0 #fff;
+}
+
